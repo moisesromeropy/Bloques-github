@@ -1,0 +1,47 @@
+body{
+    background-color:slategrey;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+h1{
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+main{
+    padding: 15px;
+    background-color:slategrey
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 15px;
+}
+#row1{
+    background-color:aqua;
+    justify-content:space-between
+}
+#row2{
+    background-color: burlywood;
+    justify-content: space-evenly;
+}
+#row3{
+    background-color: yellow;
+    justify-content: space-around;
+}
+img{
+    height: 200px;
+}
+.img-3{
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
